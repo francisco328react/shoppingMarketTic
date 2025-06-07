@@ -7,9 +7,9 @@ export function Header() {
                 <div>
                     <a href="/">
                         <img 
-                            src="http://localhost:5173/public/assets/logo.png"
+                            src="assets/logo.png"
                             alt="Company Logo"
-                            className="max-w-36"
+                            className="max-w-30 rounded-lg"
                         />
                     </a>
                 </div>

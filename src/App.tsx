@@ -1,12 +1,18 @@
 import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 import { Header } from './app/components/Header'
+import { Card } from './app/components/Card'
 
 export function App() {
   const route = createBrowserRouter([
     {
       path: "/",
-      element: <Header />
+      element: (
+        <>
+          <Header />
+          <Card />
+        </>
+      )
     }
   ])
 
